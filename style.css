@@ -1,0 +1,65 @@
+  * {
+    padding: 0; 
+    margin: 0;
+  }
+  body {
+    background: lightgrey;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .container {
+    width: 40em;
+    border: 1px dotted rgb(151, 143, 143);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+  }
+  h1 {
+    color: orange;
+    padding: 1em;
+  }
+  .error {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  footer, .container.under {
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 0.8em;
+    color: grey;
+    text-align: center;
+    border: 0;
+  }
+  Form {
+    text-align: center;
+    height: 2em;
+  }
+  .person {
+    display: inline-block;
+    width: 16em;
+  }
+  .phone {
+    display: inline-block;
+    width: 8em;
+  }
+  .save, .delete, .add, .refresh {
+    display: inline-block;
+    width: 4em;
+  }
+  input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    padding: 4px;
+  }
+  .person input, .phone input {
+    background: DodgerBlue;
+  }
+  .save input, .add input, .refresh input {
+    background: MediumSeaGreen;
+  }
+  .delete input {
+    background: tomato;
+  }
