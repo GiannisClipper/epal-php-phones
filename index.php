@@ -111,9 +111,9 @@
           $phone=$row['phone'];
           echo "
             <form action='index.php' method='POST'>
-              <span class='id'><input type='hidden' name='id' value=$id></span>
-              <span class='person'><input type='text' name='person' value=$person></span>
-              <span class='phone'><input type='tel' name='phone' value=$phone></span>
+              <span class='id'><input type='hidden' name='id' value='$id'></span>
+              <span class='person'><input type='text' name='person' value='$person'></span>
+              <span class='phone'><input type='tel' name='phone' value='$phone'></span>
               <span class='save'><input type='submit' name='save' value='Save'></span>
               <span class='delete'><input type='submit' name='delete' value='Delete'></span>
             </form>
