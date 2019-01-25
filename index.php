@@ -84,7 +84,7 @@
     }
 
     //get all records
-    $data=$db->query("SELECT * FROM tb_phones;");
+    $data=$db->query("SELECT * FROM tb_phones ORDER BY `id`;");
   }
 ?>
 
